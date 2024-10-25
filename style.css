@@ -1,0 +1,74 @@
+
+
+nav {
+    background-color: black;
+    height: 100px;
+}
+
+h1 {
+    color: aqua;
+    font-size: 40px;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 100px;
+}
+
+.form {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.form > button {
+    border-radius: 50px;
+    padding: 15px;
+    background-color: rgb(72, 72, 255);
+    color: #fff;
+    font-weight: bold;
+    font-family: serif;
+
+}
+
+#city {
+    border-radius: 50px;
+    padding: 15px;
+
+}
+
+#cen {
+    display: flex;
+    justify-content: center;
+}
+
+#temp {
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(80, 77, 77);
+    margin-left: 10px;
+}
+
+
+#text {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 320px;
+    color: rgb(80, 77, 77);
+    
+}
+
+#data {
+    margin-top: 100px;
+    margin-left: 300px;
+    font-size: 25px;
+    color: #000;
+}
+
+#foot {
+    background-color: #000;
+    height: 50px;
+    margin-top: 100px;
+}

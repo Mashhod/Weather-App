@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+
+    <nav>
+        <h1>Weather App</h1>
+    </nav>
+
+    <form onsubmit="getWeatherData(); return false" class="form">
+        <input type="text" placeholder="Enter City Name" id="city">
+        <br>
+        <br>
+    </form>
+    
+    <div id="cen">
+        <img src="" alt="" id="icon">
+        <div id="temp"></div>
+    </div>
+
+    <div id="text"></div>
+    
+    <div id="data">
+        <div id="loc"></div>
+        <br>
+        <div id ="time"></div>
+        <br>
+        <div id="fh"></div>
+        <br>
+        <div id="fl"></div>
+        <br>
+        <div id="humi"></div>
+        <br>
+        <div id="visib"></div>
+        <br>
+        <div id="ws"></div>
+
+    </div>
+    <footer id="foot"></footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
